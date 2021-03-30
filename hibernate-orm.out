@@ -1,0 +1,52 @@
+Recursively parsing: /home/nick/development/hibernate-orm
+/home/nick/development/hibernate-orm/hibernate-integrationtest-java-modules/src/main/java/module-info.java: line 7:7 no viable alternative at input 'module org'
+/home/nick/development/hibernate-orm/documentation/src/main/asciidoc/integrationguide/chapters/services/extras/override/ex1-direct.java: line 1:31 no viable alternative at input 'StandardServiceRegistryBuilder builder'
+/home/nick/development/hibernate-orm/documentation/src/main/asciidoc/integrationguide/chapters/services/extras/override/LatestAndGreatestConnectionProviderImpl.java: line 39:8 missing ';' at '}'
+/home/nick/development/hibernate-orm/documentation/src/main/asciidoc/integrationguide/chapters/services/extras/override/ex3-app.java: line 1:31 no viable alternative at input 'StandardServiceRegistryBuilder builder'
+/home/nick/development/hibernate-orm/documentation/src/main/asciidoc/integrationguide/chapters/services/extras/override/ex3-contributor.java: line 11:12 extraneous input '.' expecting {'new', 'super', 'this', '<', IDENTIFIER}
+/home/nick/development/hibernate-orm/documentation/src/main/asciidoc/integrationguide/chapters/services/extras/extend/EventPublishingServiceInitiator.java: line 32:4 extraneous input '...' expecting {'abstract', 'boolean', 'byte', 'char', 'class', 'double', 'enum', 'final', 'float', 'int', 'interface', 'long', 'native', 'private', 'protected', 'public', 'short', 'static', 'strictfp', 'synchronized', 'transient', 'void', 'volatile', '{', '}', ';', '<', '@', IDENTIFIER}
+/home/nick/development/hibernate-orm/documentation/src/main/asciidoc/integrationguide/chapters/services/extras/BootstrapServiceRegistryBuilder-example.java: line 1:25 no viable alternative at input 'BootstrapServiceRegistry bootstrapServiceRegistry'
+Total Java 8 grammar execution time: 19104 ms
+Number of successfully parsed files: 10298
+Number of files failed to parse: 7
+****************************************************************************************************
+Recursively parsing: /home/nick/development/hibernate-orm
+/home/nick/development/hibernate-orm/documentation/src/main/asciidoc/integrationguide/chapters/services/extras/override/ex1-direct.java: line 1:0 mismatched input 'StandardServiceRegistryBuilder' expecting {<EOF>, 'abstract', 'class', 'enum', 'final', 'import', 'interface', 'module', 'open', 'package', 'private', 'protected', 'public', 'static', 'strictfp', ';', '@'}
+/home/nick/development/hibernate-orm/documentation/src/main/asciidoc/integrationguide/chapters/services/extras/override/LatestAndGreatestConnectionProviderImpl.java: line 39:8 no viable alternative at input 'if(!available){throwException("LatestAndGreatest ConnectionProvider not available for use")}'
+/home/nick/development/hibernate-orm/documentation/src/main/asciidoc/integrationguide/chapters/services/extras/override/ex3-app.java: line 1:0 mismatched input 'StandardServiceRegistryBuilder' expecting {<EOF>, 'abstract', 'class', 'enum', 'final', 'import', 'interface', 'module', 'open', 'package', 'private', 'protected', 'public', 'static', 'strictfp', ';', '@'}
+/home/nick/development/hibernate-orm/documentation/src/main/asciidoc/integrationguide/chapters/services/extras/override/ex3-contributor.java: line 11:12 no viable alternative at input 'serviceregistrybuilder.getbootstrapserviceregistry()..'
+/home/nick/development/hibernate-orm/documentation/src/main/asciidoc/integrationguide/chapters/services/extras/extend/EventPublishingServiceInitiator.java: line 32:4 extraneous input '...' expecting {'abstract', 'boolean', 'byte', 'char', 'class', 'double', 'enum', 'exports', 'final', 'float', 'int', 'interface', 'long', 'module', 'native', 'open', 'opens', 'private', 'protected', 'provides', 'public', 'requires', 'short', 'static', 'strictfp', 'synchronized', 'to', 'transient', 'uses', 'void', 'volatile', 'with', '{', '}', ';', '@', '<', Identifier}
+/home/nick/development/hibernate-orm/documentation/src/main/asciidoc/integrationguide/chapters/services/extras/BootstrapServiceRegistryBuilder-example.java: line 1:0 mismatched input 'BootstrapServiceRegistry' expecting {<EOF>, 'abstract', 'class', 'enum', 'final', 'import', 'interface', 'module', 'open', 'package', 'private', 'protected', 'public', 'static', 'strictfp', ';', '@'}
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.HashMap.newNode(HashMap.java:1797)
+	at java.base/java.util.HashMap.putVal(HashMap.java:626)
+	at java.base/java.util.HashMap.put(HashMap.java:607)
+	at org.antlr.v4.runtime.atn.PredictionContext.combineCommonParents(PredictionContext.java:476)
+	at org.antlr.v4.runtime.atn.PredictionContext.mergeArrays(PredictionContext.java:459)
+	at org.antlr.v4.runtime.atn.PredictionContext.merge(PredictionContext.java:174)
+	at org.antlr.v4.runtime.atn.ATNConfigSet.add(ATNConfigSet.java:154)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closure_(ParserATNSimulator.java:1529)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closureCheckingStopState(ParserATNSimulator.java:1513)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closure_(ParserATNSimulator.java:1586)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closureCheckingStopState(ParserATNSimulator.java:1513)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closure_(ParserATNSimulator.java:1586)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closureCheckingStopState(ParserATNSimulator.java:1513)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closure_(ParserATNSimulator.java:1586)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closureCheckingStopState(ParserATNSimulator.java:1513)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closure_(ParserATNSimulator.java:1586)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closureCheckingStopState(ParserATNSimulator.java:1513)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closure_(ParserATNSimulator.java:1586)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closureCheckingStopState(ParserATNSimulator.java:1513)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closure_(ParserATNSimulator.java:1586)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closureCheckingStopState(ParserATNSimulator.java:1513)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closure_(ParserATNSimulator.java:1586)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closureCheckingStopState(ParserATNSimulator.java:1513)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closure_(ParserATNSimulator.java:1586)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closureCheckingStopState(ParserATNSimulator.java:1513)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closure_(ParserATNSimulator.java:1586)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closureCheckingStopState(ParserATNSimulator.java:1513)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closure_(ParserATNSimulator.java:1586)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closureCheckingStopState(ParserATNSimulator.java:1513)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closure_(ParserATNSimulator.java:1586)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closureCheckingStopState(ParserATNSimulator.java:1513)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.closure_(ParserATNSimulator.java:1586)

@@ -1,0 +1,10 @@
+Recursively parsing: /home/nick/development/jOOL
+/home/nick/development/jOOL/jOOL/src/main/java/module-info.java: line 2:7 no viable alternative at input 'module org'
+Total Java 8 grammar execution time: 12323 ms
+Number of successfully parsed files: 310
+Number of files failed to parse: 1
+****************************************************************************************************
+Recursively parsing: /home/nick/development/jOOL
+Total Java 9 grammar execution time: 274813 ms
+Number of successfully parsed files: 311
+Number of files failed to parse: 0

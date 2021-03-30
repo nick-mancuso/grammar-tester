@@ -1,0 +1,9 @@
+Recursively parsing: /home/nick/development/protonpack
+Total Java 8 grammar execution time: 2148 ms
+Number of successfully parsed files: 61
+Number of files failed to parse: 0
+****************************************************************************************************
+Recursively parsing: /home/nick/development/protonpack
+Total Java 9 grammar execution time: 35973 ms
+Number of successfully parsed files: 61
+Number of files failed to parse: 0

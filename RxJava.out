@@ -1,0 +1,9 @@
+Recursively parsing: /home/nick/development/RxJava
+Total Java 8 grammar execution time: 15342 ms
+Number of successfully parsed files: 1870
+Number of files failed to parse: 0
+****************************************************************************************************
+Recursively parsing: /home/nick/development/RxJava
+Total Java 9 grammar execution time: 1569710 ms
+Number of successfully parsed files: 1870
+Number of files failed to parse: 0
