@@ -72,3 +72,6 @@ fabric.properties
 
 # Project exclude paths
 /target/
+/gen/
+src/main/java/tester/grammar/Java8Lexer.tokens
+src/main/java/tester/grammar/Java9Lexer.tokens
