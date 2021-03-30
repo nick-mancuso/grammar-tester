@@ -3,6 +3,11 @@ Simple parser to compare two grammar's parsing ability and performance on a give
 
 ## RESULTS
 
+
+![](https://github.com/nmancus1/grammar-tester/blob/master/parsing_rate.png) 
+![](https://github.com/nmancus1/grammar-tester/blob/master/success_parse_perc.png)
+
+
 Checkstyle test inputs only: https://github.com/nmancus1/grammar-tester/blob/master/checkstyle-test-resources.out
 
 ```bash
