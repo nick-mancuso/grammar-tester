@@ -1,0 +1,39 @@
+Recursively parsing: /home/nick/IdeaProjects/checkstyle/src/test/resources
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/utils/checkutil/InputCheckUtilTest.java: line 69:53 no viable alternative at input 'InputCheckUtilTest<V, C>this'
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/whitespace/nowhitespaceafter/InputNoWhitespaceAfterArrayDeclarations3.java: line 13:19 extraneous input '@' expecting {'boolean', 'byte', 'char', 'double', 'float', 'int', 'long', 'short', '<', IDENTIFIER}
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/coding/parameterassignment/InputParameterAssignmentReceiver.java: line 4:54 no viable alternative at input 'InputParameterAssignmentReceiver this'
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/coding/hiddenfield/InputHiddenFieldReceiver.java: line 4:46 no viable alternative at input 'InputHiddenFieldReceiver this'
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/coding/equalsavoidnull/InputEqualsAvoidNullMisc.java: line 12:30 no viable alternative at input 'Receiver this'
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/coding/requirethis/InputRequireThisReceiver.java: line 4:46 no viable alternative at input 'InputRequireThisReceiver this'
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/coding/finallocalvariable/InputFinalLocalVariableReceiverParameter.java: line 4:62 no viable alternative at input 'InputFinalLocalVariableReceiverParameter this'
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/finalparameters/InputFinalParametersReceiver.java: line 4:50 no viable alternative at input 'InputFinalParametersReceiver this'
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/javadoc/javadocmethod/InputJavadocMethodReceiverParameter.java: line 30:75 no viable alternative at input '@Ann(Object.class) InputJavadocMethodReceiverParameter this'
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/javadoc/missingjavadocmethod/InputMissingJavadocMethodReceiverParameter.java: line 27:82 no viable alternative at input '@Ann(Object.class) InputMissingJavadocMethodReceiverParameter this'
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/annotation/annotationonsameline/InputAnnotationOnSameLineCheckOnDifferentTokens.java: line 18:34 extraneous input '@' expecting {'boolean', 'byte', 'char', 'double', 'float', 'int', 'long', 'short', '<', IDENTIFIER}
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/naming/abbreviationaswordinname/InputAbbreviationAsWordInNameReceiver.java: line 4:57 no viable alternative at input 'InputAbbreviationAsWordInNameReceiver this'
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/naming/parametername/InputParameterNameReceiver.java: line 4:48 no viable alternative at input 'InputParameterNameReceiver this'
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/modifier/modifierorder/InputModifierOrderTypeAnnotations.java: line 27:12 extraneous input '@' expecting {'boolean', 'byte', 'char', 'double', 'float', 'int', 'long', 'short', '<', IDENTIFIER}
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/suppresswarningsholder/InputSuppressWarningsHolder5.java: line 13:28 extraneous input '@' expecting {'boolean', 'byte', 'char', 'double', 'float', 'int', 'long', 'short', '<', IDENTIFIER}
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/grammar/InputRegressionJava8Class1.java: line 23:21 extraneous input '@' expecting IDENTIFIER
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/grammar/java8/InputTypeUseAnnotationsOnQualifiedTypes.java: line 19:31 extraneous input '@' expecting IDENTIFIER
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/grammar/java8/InputAnnotationsOnArray.java: line 12:26 no viable alternative at input 'String array1 @'
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/grammar/java8/InputAnnotations7.java: line 9:28 extraneous input '@' expecting {'boolean', 'byte', 'char', 'double', 'float', 'int', 'long', 'short', '<', IDENTIFIER}
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/grammar/java8/InputAnnotations5.java: line 10:37 extraneous input '@' expecting IDENTIFIER
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/grammar/java8/InputAnnotations8.java: line 13:21 extraneous input '@' expecting {'<', IDENTIFIER}
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/grammar/java8/InputReceiverParameter.java: line 5:42 no viable alternative at input 'InputReceiverParameter this'
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/grammar/InputUnicodeEscape.java: line 8:13 token recognition error at: ''\u005cr'
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/grammar/InputRegressionJavaClass1.java: line 156:16 token recognition error at: ''\u005C\'
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/grammar/InputRegressionJava8Class2.java: line 22:23 mismatched input '@' expecting {'throws', '{', '[', ';'}
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/grammar/InputRegressionJavaTypecast.java: line 7:46 extraneous input 'null' expecting ';'
+Total Java 8 grammar execution time: 3081 ms
+Number of successfully parsed files: 1132
+Number of files failed to parse: 26
+****************************************************************************************************
+Recursively parsing: /home/nick/IdeaProjects/checkstyle/src/test/resources
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/whitespace/nowhitespaceafter/InputNoWhitespaceAfterArrayDeclarations.java: line 46:25 mismatched input '[' expecting {'instanceof', ';', ',', '.', '::', '>', '<', '==', '<=', '>=', '!=', '&&', '||', '++', '--', '+', '-', '*', '/', '&', '|', '^', '%'}
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/checks/coding/unnecessaryparentheses/InputUnnecessaryParenthesesOperatorsAndCasts.java: line 7:16 no viable alternative at input '(x)+='
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/grammar/InputUnicodeEscape.java: line 8:13 token recognition error at: ''\u005cr'
+/home/nick/IdeaProjects/checkstyle/src/test/resources/com/puppycrawl/tools/checkstyle/grammar/InputRegressionJavaClass1.java: line 156:16 token recognition error at: ''\u005C\'
+Total Java 9 grammar execution time: 76189 ms
+Number of successfully parsed files: 1154
+Number of files failed to parse: 4
