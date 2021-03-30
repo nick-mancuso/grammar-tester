@@ -28,3 +28,15 @@ Total Java 9 grammar execution time: 417704 ms
 Number of successfully parsed files: 2595
 Number of files failed to parse: 162
 ```
+
+Entire PMD repo: https://github.com/nmancus1/grammar-tester/blob/master/full-pmd.out
+
+```bash
+Total Java 8 grammar execution time: 9619 ms
+Number of successfully parsed files: 3378
+Number of files failed to parse: 79
+
+Total Java 9 grammar execution time: 996548 ms
+Number of successfully parsed files: 3384
+Number of files failed to parse: 73
+```
