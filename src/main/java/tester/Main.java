@@ -118,7 +118,7 @@ public final class Main {
         } catch (IOException | ParseCancellationException e) {
             // TODO Auto-generated catch block
             FILE_FAIL_COUNTER.getAndIncrement();
-            System.out.print(new File(filename).getAbsolutePath() + ": ");
+            System.out.print(filename + ": ");
             System.out.println(e.getMessage());
         }
     }
@@ -153,7 +153,7 @@ public final class Main {
         } catch (IOException | ParseCancellationException e) {
             // TODO Auto-generated catch block
             FILE_FAIL_COUNTER.getAndIncrement();
-            System.out.print(new File(filename).getAbsolutePath() + ": ");
+            System.out.print(filename + ": ");
             System.out.println(e.getMessage());
         }
     }
