@@ -6,7 +6,6 @@ import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.misc.ParseCancellationException;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
-import tester.grammar.*;
 import tester.grammar.Java8Lexer;
 import tester.grammar.Java8LexerNO;
 import tester.grammar.Java8Parser;
@@ -43,11 +42,12 @@ public final class Main {
         }
         System.out.println();
         setupAndRunJava9Grammar(dirName);
+         */
         for (int i = 0; i < 100; i++) {
             System.out.print("*");
         }
         System.out.println();
-         */
+
         setupAndRunJava8NOGrammar(dirName);
     }
 
