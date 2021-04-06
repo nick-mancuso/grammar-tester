@@ -8,3 +8,9 @@ Recursively parsing: /home/nick/development/jOOL
 Total Java 9 grammar execution time: 274813 ms
 Number of successfully parsed files: 311
 Number of files failed to parse: 0
+****************************************************************************************************
+Recursively parsing: /home/nick/development/jOOL
+/home/nick/development/jOOL/jOOL/src/main/java/module-info.java: line 2:0 mismatched input 'module' expecting {<EOF>, 'abstract', 'class', 'enum', 'final', 'import', 'interface', 'package', 'private', 'protected', 'public', 'static', 'strictfp', ';', '@'}
+Total Java 8 NO grammar execution time: 187140 ms
+Number of successfully parsed files: 310
+Number of files failed to parse: 1

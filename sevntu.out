@@ -9,3 +9,10 @@ Recursively parsing: /home/nick/development/sevntu.checkstyle
 Total Java 9 grammar execution time: 90874 ms
 Number of successfully parsed files: 367
 Number of files failed to parse: 2
+****************************************************************************************************
+Recursively parsing: /home/nick/development/sevntu.checkstyle
+/home/nick/development/sevntu.checkstyle/sevntu-checks/src/test/resources/com/github/sevntu/checkstyle/checks/coding/InputUnnecessaryParenthesesExtendedCheckUbv.java: line 7:16 no viable alternative at input '(x)+='
+/home/nick/development/sevntu.checkstyle/sevntu-checks/src/test/resources/com/github/sevntu/checkstyle/checks/coding/InputUnnecessaryParenthesesExtendedCheck.java: line 7:16 no viable alternative at input '(x)+='
+Total Java 8 NO grammar execution time: 67061 ms
+Number of successfully parsed files: 367
+Number of files failed to parse: 2
