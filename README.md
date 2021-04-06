@@ -18,6 +18,8 @@ Number of files failed to parse: 26
 Total Java 9 grammar execution time: 76189 ms
 Number of successfully parsed files: 1154
 Number of files failed to parse: 4
+
+
 ```
 
 
@@ -32,6 +34,10 @@ Number of files failed to parse: 189
 Total Java 9 grammar execution time: 417704 ms
 Number of successfully parsed files: 2595
 Number of files failed to parse: 162
+
+Total Java 8 NO grammar execution time: 396005 ms
+Number of successfully parsed files: 3799
+Number of files failed to parse: 180
 ```
 
 Entire PMD repo: https://github.com/nmancus1/grammar-tester/blob/master/full-pmd.out
@@ -44,6 +50,10 @@ Number of files failed to parse: 79
 Total Java 9 grammar execution time: 996548 ms
 Number of successfully parsed files: 3384
 Number of files failed to parse: 73
+
+Total Java 8 NO grammar execution time: 517036 ms
+Number of successfully parsed files: 3372
+Number of files failed to parse: 85
 ```
 
 Entire jOOl repo: https://github.com/nmancus1/grammar-tester/blob/master/jOOL.out
@@ -57,6 +67,10 @@ Total Java 9 grammar execution time: 274813 ms
 Number of successfully parsed files: 311
 Number of files failed to parse: 0
 
+Total Java 8 NO grammar execution time: 187140 ms
+Number of successfully parsed files: 310
+Number of files failed to parse: 1
+
 ```
 Entire hibernate-orm repo: https://github.com/nmancus1/grammar-tester/blob/master/hibernate-orm.out
 
@@ -65,8 +79,12 @@ Total Java 8 grammar execution time: 19104 ms
 Number of successfully parsed files: 10298
 Number of files failed to parse: 7
 
-
+Java 9:
 Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+
+Total Java 8 NO grammar execution time: 1877485 ms
+Number of successfully parsed files: 10298
+Number of files failed to parse: 7
 ```
 
 Entire protonpack repo: https://github.com/nmancus1/grammar-tester/blob/master/protonpack.out
@@ -80,6 +98,10 @@ Total Java 9 grammar execution time: 35973 ms
 Number of successfully parsed files: 61
 Number of files failed to parse: 0
 
+Recursively parsing: /home/nick/development/protonpack
+Total Java 8 NO grammar execution time: 27099 ms
+Number of successfully parsed files: 61
+Number of files failed to parse: 0
 ```
 
 Entire sevntu repo: https://github.com/nmancus1/grammar-tester/blob/master/sevntu.out
@@ -90,6 +112,10 @@ Number of successfully parsed files: 369
 Number of files failed to parse: 0
 
 Total Java 9 grammar execution time: 90874 ms
+Number of successfully parsed files: 367
+Number of files failed to parse: 2
+
+Total Java 8 NO grammar execution time: 67061 ms
 Number of successfully parsed files: 367
 Number of files failed to parse: 2
 ```
