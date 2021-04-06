@@ -1,5 +1,5 @@
 # grammar-tester
-Simple parser to compare two grammar's parsing ability and performance on a given directory of Java files.
+Simple parser to compare an ANTLR4 Java grammar's parsing ability and performance on a given directory of Java files.
 
 ## RESULTS
 
